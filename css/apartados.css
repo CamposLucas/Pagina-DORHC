@@ -1,0 +1,45 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+.apartados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.sidebar { 
+    width: 18%;
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+.sidebar li {
+    margin-bottom: 1em;
+}
+
+ #titulo {
+     width: 100%;
+     margin: 1em 0;
+ }
+.apart {
+    width: 50%;
+    margin-bottom: 0.7em;
+    position: relative;
+}
+
+.apart h2 {
+    text-align: center;
+    position: absolute;
+    top:35%;
+    left:0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 96.5%;
+    padding: 2em 0;
+}
+
+.apart h2:hover {
+    color: #de0963;
+}

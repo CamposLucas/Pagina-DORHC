@@ -1,0 +1,67 @@
+header {
+    margin-top: 0.5em;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+    padding: 0.5em;
+}
+#escudo {
+    float: left;
+}
+
+.titulo {   
+    margin-top: 3em;
+    margin-left: 1em;
+    float: left;
+    color: white;
+}
+
+#subtitulo {
+    margin-top: 0.5em;
+    font-style: italic;
+}
+
+.sociales {
+    margin-top: 5.7em;
+    margin-right: 1em;
+    float: right;
+}
+
+.sociales a{
+    text-decoration: none;
+    color:black;
+}
+
+nav ul {
+    clear: both;
+    display: flex;
+    justify-content: centeR;
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+nav ul li{
+    padding: 1em 3em;
+    font-weight: 1000;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #5d64a8;
+}
+
+i {
+    background: white;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+i:hover {
+    background: #de0963;
+    color: white;
+} 

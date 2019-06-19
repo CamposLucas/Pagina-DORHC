@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: url("image/fondo.png");
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.932);
+    padding: 0.5em;
+}
