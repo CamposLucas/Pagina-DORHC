@@ -1,19 +1,18 @@
-header {
-    margin-top: 0.5em;
-    background: rgba(255, 255, 255, 0.2);
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 0;
 }
 
-.logo {
-    padding: 0.5em;
-}
-#escudo {
-    float: left;
+.header img {
+    display: flex;
 }
 
-.titulo {   
-    margin-top: 3em;
-    margin-left: 1em;
-    float: left;
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 60%;
     color: white;
 }
 
@@ -22,37 +21,61 @@ header {
     font-style: italic;
 }
 
+.nombre{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.nombre a {
+    text-decoration: none;
+    color: white;
+}
+
 .sociales {
-    margin-top: 5.7em;
-    margin-right: 1em;
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 13%;
 }
 
 .sociales a{
     text-decoration: none;
     color:black;
+    padding: 0.2em;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 nav ul {
-    clear: both;
     display: flex;
-    justify-content: centeR;
-    list-style: none;
-    margin-bottom: 0.5em;
+    text-decoration: none;
 }
 
 nav ul li{
-    padding: 1em 3em;
+    list-style: none;
     font-weight: 1000;
+    padding:  1em 1.5em;
 }
 
 nav ul li a{
     color: white;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
 }
 
 nav ul li:hover {
-    background: #5d64a8;
+    border-bottom: 2px solid #5d64a8;
+}
+
+#selected {
+    border-bottom: 2px solid  #de0963;
 }
 
 i {
