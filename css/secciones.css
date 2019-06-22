@@ -17,11 +17,12 @@
 
 .articulo {
     grid-area: article;
-    padding: 1em;
+    padding: 2em;
 }
 
 #titulo{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .sidebar {
