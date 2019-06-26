@@ -27,7 +27,7 @@
 
 .sidebar {
     grid-area: sidebar;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 .sidebar h4 {
@@ -37,6 +37,7 @@
 
 .sidebar li {
     margin-bottom: 1em;
+    list-style: none;
 }
 
 footer {
