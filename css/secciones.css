@@ -27,10 +27,11 @@
 
 .sidebar {
     grid-area: sidebar;
-    padding: 1em;
+    padding-left: 2em;
 }
 
 .sidebar h4 {
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
