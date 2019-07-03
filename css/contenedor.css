@@ -11,27 +11,30 @@
     justify-content: center;
     background: rgb(255, 255, 255);
 }
+
 .apart {
-    margin-top: 1em;
-    text-align: center;
+    position: relative;
+    margin-bottom: 1em;
 }
 
-.apart img {
-    padding: 1em;
-}
-
-.apart h2 {
+.apart a{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background: rgba(0,0,0,0.6);
     width: 100%;
-    background: rgb(0, 0, 0);
-}
-
-.apart h2:hover {
-    color: #de0963;
-}
-
-.apart a {
     text-decoration: none;
     color: white;
+    padding: 1em;
+    text-align: center;
+ }
+
+.apart a:hover {
+     color: #de0963;
+ }
+
+#imgdesk {
+    display: none;
 }
 
 .insfeed {
@@ -47,4 +50,28 @@ footer {
     color: white;
     text-align: center;
     padding-top: 1em;
+}
+
+@media(min-width:768px){
+    #titulo {
+        width: 100%;
+        text-align: center;
+    }
+    .apartados {
+        justify-content: space-between;
+    }
+
+    #imgmob {
+        display:none;
+    }
+
+    #imgdesk {
+        display: block;
+        width: 100%;
+    }
+
+    #hockey {
+        width: 100%;
+    }
+
 }

@@ -24,3 +24,23 @@
 .texto a:hover {
     background: #de0963;
 }
+
+@media(min-width:768px){
+    .banner {
+        position: relative;
+    }
+
+    .texto {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        height:100%;
+        width: 40%;
+        font-size: 18px;
+    }
+
+    .texto p {
+        margin-bottom: 15em;
+    }
+}
