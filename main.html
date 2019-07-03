@@ -11,27 +11,27 @@
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/contenedor.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 </head>
 
 <body>
     <header>
         <div class="header">
-            <a href="main.html"> <img id="escudo" src="image/logo.png" alt="" width="250px" height="200px"> </a>
+            <a href="main.html"> <img id="escudo" src="image/logo.png" alt="" width="110px" height="120px"> </a>
             <div class="titulo">
-                <div class="nombre">
-                    <a href="main.html"> <h1> DEL OESTE RUGBY HOCKEY </h1> </a>
-                    <h3 id="subtitulo"> Mucho más que un club</h3>
-                </div>
-                <nav>
-                    <ul>
-                        <li id="selected"> <a href="main.html"> INICIO </a> </li>
-                        <li> <a href="rugby.html"> RUGBY </a> </li>
-                        <li> <a href="hockey.html"> HOCKEY </a> </li>
-                        <li> <a href="elclub.html"> EL CLUB </a> </li>
-                        <li> <a href="contacto.html"> CONTACTO </a> </li>
-                    </ul>
-                </nav>
+                <a href="main.html"> <h1> DEL OESTE RUGBY HOCKEY </h1> </a>
+                <h3 id="subtitulo"> Mucho más que un club</h3>
             </div>
+            <span class="icon-menu" id="btnmenu"></span>
+            <nav id="nav">
+                <ul>
+                    <li id="selected"> <a href="main.html"> INICIO </a> </li>
+                    <li> <a href="rugby.html"> RUGBY </a> </li>
+                    <li> <a href="hockey.html"> HOCKEY </a> </li>
+                    <li> <a href="elclub.html"> EL CLUB </a> </li>
+                    <li> <a href="contacto.html"> CONTACTO </a> </li>
+                </ul>
+            </nav>
             <div class="sociales">
                 <a href="https://es-la.facebook.com/DelOesteRHC/" target="_blank"><i class="icon-facebook"></i></a></i>
                 <a href="https://www.instagram.com/deloesterhc/?hl=es-la" target="_blank"> <i class="icon-instagram"></i> </a> 
@@ -40,37 +40,38 @@
         </div>
     </header>
     <div class="banner">
-            <div class="image">
-                <img src="image/banner.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h2>SUMATE A ESTA FAMILIA</h2>
-                <p>Dias y horarios de entrenamiento</p>
-                <a href="#"> Ver mas </a>
-            </div>
+        <div class="image">
+            <img src="image/banner.jpg" alt="">
         </div>
+        <div class="texto">
+            <h2>SUMATE A ESTA FAMILIA</h2>
+            <p>Dias y horarios de entrenamiento</p>
+            <a href="#"> Ver mas </a>
+        </div>
+    </div>
     <div class="contenedor">
         <div class="apartados">
-            <h2 id="titulo">Nuestras Categorias</h2>
-            <div class="apart">
-                <img src="image/superior.jpg" alt="">
+            <h2 id="titulo">NUESTRAS CATEGORIAS</h2>
+            <div class="apart">                
                 <a href="rugby.html"> <h2>SUPERIOR</h2> </a>
+                <img src="image/superior.jpg" alt="">
             </div>
             <div class="apart">
-                    <img src="image/femenino.jpg" alt="">
                     <a href="femenino.html"> <h2>FEMENINO</h2> </a>
+                    <img src="image/femenino.jpg" alt="">
+                    
             </div>
             <div class="apart" id="hockey">
-                    <img src="image/hockey.jpg" alt="">
                     <a href="hockey.html"> <h2>HOCKEY</h2> </a>
+                    <img src="image/hockey-mobile.jpg" alt="">
             </div>
             <div class="apart">
-                    <img src="image/infantil.jpg" alt="">
                     <a href=""> <h2>INFANTIL</h2> </a>
+                    <img src="image/infantil.jpg" alt="">
             </div>
             <div class="apart">
-                    <img src="image/juvenil.jpg" alt="">
                     <a href=""> <h2>JUVENIL</h2> </a>
+                    <img src="image/juvenil.jpg" alt="">
             </div>
         </div>
         <aside class="sidebar">
@@ -87,11 +88,12 @@
     </div>
     <div class="insfeed">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-ddc26d83-c3e0-4b3e-9f51-2ce5f7425baa"></div>
+        <div class="elfsight-app-ddc26d83-c3e0-4b3e-9f51-2ce5f7425baa"></div>
     </div>
     <footer>
         <p> Del oeste rugby hockey club &copy; 2019 </p>
-    </footer>
+    </footer> 
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

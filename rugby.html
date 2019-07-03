@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 </head>
 
 <body>
     <header>
         <div class="header">
-            <a href="main.html"> <img id="escudo" src="image/logo.png" alt="" width="250px" height="200px"> </a>
+            <a href="main.html"> <img id="escudo" src="image/logo.png" alt="" width="110px" height="120px"> </a>
             <div class="titulo">
-                <div class="nombre">
-                    <a href="main.html"> <h1> DEL OESTE RUGBY HOCKEY </h1> </a>
-                    <h3 id="subtitulo"> Mucho más que un club</h3>
-                </div>
-                <nav>
+                <a href="main.html"> <h1> DEL OESTE RUGBY HOCKEY </h1> </a>
+                <h3 id="subtitulo"> Mucho más que un club</h3>
+            </div>
+            <span class="icon-menu" id="btnmenu"></span>
+                <nav id="nav">
                     <ul>
                         <li> <a href="main.html"> INICIO </a> </li>
                         <li id="selected"> <a href="rugby.html"> RUGBY </a> </li>
@@ -30,7 +31,6 @@
                         <li> <a href="contacto.html"> CONTACTO </a> </li>
                     </ul>
                 </nav>
-            </div>
             <div class="sociales">
                 <a href="https://es-la.facebook.com/DelOesteRHC/" target="_blank"><i class="icon-facebook"></i></a></i>
                 <a href="https://www.instagram.com/deloesterhc/?hl=es-la" target="_blank"> <i class="icon-instagram"></i> </a> 
@@ -38,19 +38,17 @@
             </div>
         </div>
     </header>
+    <div class="banner">
+        <img src="image/banner_rugby.jpg" alt="">
+    </div>
     <div class="contenedor">
-        <div class="banner">
-            <img src="image/banner_rugby.jpg" alt="">
-        </div>
-        <div class="apartados">
-            <div class="articulo">
-                <div id="titulo">
-                    <h2 >RUGBY</h2>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, perspiciatis itaque qui aperiam excepturi minima sapiente, quam soluta vitae asperiores ratione. Obcaecati cupiditate voluptas sapiente nihil quasi tenetur perspiciatis eaque quaerat dicta ut! Molestias nisi doloribus at quia vel, neque incidunt. 
-                <br> architecto quae iure sunt eum alias natus similique, quas cupiditate aspernatur praesentium sint animi esse! Esse repudiandae modi assumenda non dolores aliquam officia incidunt dolore rerum ducimus nesciunt hic molestiae ab debitis quam, deserunt quas laboriosam natus vel dicta enim dolor earum. Asperiores harum perferendis hic sequi molestias? Ex debitis dolorem animi omnis similique, nemo alias quibusdam illum porro excepturi eaque vel, incidunt quasi et tenetur, deleniti placeat possimus velit unde amet rerum? Veritatis amet autem sint eos incidunt quam, commodi nam nesciunt? 
-                <br>Rerum ex sunt assumenda, ratione non, doloremque itaque aliquam quo quaerat libero commodi voluptatum labore asperiores illo. Unde dolore cupiditate nobis pariatur consectetur itaque nulla animi minus exercitationem suscipit libero magni, asperiores at inventore illo accusantium quasi reprehenderit ullam architecto est quas cumque. Corrupti quidem iure alias consequatur perferendis ullam id repudiandae, excepturi deserunt dignissimos reprehenderit ipsum! Dicta culpa iure illo repellat vero? Sint voluptate assumenda aspernatur, voluptatibus consequatur vero rerum molestiae modi quos sunt. </p>
+        <div class="articulo">
+            <div id="titulo">
+                <h2 >RUGBY</h2>
             </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, perspiciatis itaque qui aperiam excepturi minima sapiente, quam soluta vitae asperiores ratione. Obcaecati cupiditate voluptas sapiente nihil quasi tenetur perspiciatis eaque quaerat dicta ut! Molestias nisi doloribus at quia vel, neque incidunt. 
+            <br> architecto quae iure sunt eum alias natus similique, quas cupiditate aspernatur praesentium sint animi esse! Esse repudiandae modi assumenda non dolores aliquam officia incidunt dolore rerum ducimus nesciunt hic molestiae ab debitis quam, deserunt quas laboriosam natus vel dicta enim dolor earum. Asperiores harum perferendis hic sequi molestias? Ex debitis dolorem animi omnis similique, nemo alias quibusdam illum porro excepturi eaque vel, incidunt quasi et tenetur, deleniti placeat possimus velit unde amet rerum? Veritatis amet autem sint eos incidunt quam, commodi nam nesciunt? 
+            <br>Rerum ex sunt assumenda, ratione non, doloremque itaque aliquam quo quaerat libero commodi voluptatum labore asperiores illo. Unde dolore cupiditate nobis pariatur consectetur itaque nulla animi minus exercitationem suscipit libero magni, asperiores at inventore illo accusantium quasi reprehenderit ullam architecto est quas cumque. Corrupti quidem iure alias consequatur perferendis ullam id repudiandae, excepturi deserunt dignissimos reprehenderit ipsum! Dicta culpa iure illo repellat vero? Sint voluptate assumenda aspernatur, voluptatibus consequatur vero rerum molestiae modi quos sunt. </p>
         </div>
         <aside class="sidebar">
             <h4>Ultimas noticias</h4>
@@ -67,6 +65,7 @@
     <footer>
         <p> Del oeste rugby hockey club &copy; 2019 </p>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
