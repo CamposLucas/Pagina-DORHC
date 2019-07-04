@@ -59,6 +59,8 @@ footer {
     }
     .apartados {
         justify-content: space-between;
+        padding: 0 0.5em 0 0.5em;
+
     }
 
     #imgmob {
@@ -75,3 +77,18 @@ footer {
     }
 
 }
+
+@media(min-width: 1280px) {
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+    }
+    .apartados {
+        width: 80%;
+    }
+
+    .sidebar {
+        width: 19%;
+    }
+}
+

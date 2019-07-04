@@ -39,7 +39,8 @@
 }
 .sociales a i { 
     background: #5d64a8;
-    padding: 0.3em;
+    padding: 0.4em;
+    font-size: 21px;
     border-radius: 50%;
 }
 
@@ -68,7 +69,8 @@ nav ul li {
     background: #5d64a8;
 }
 
-nav a {
+nav ul li a {
+    font-family: 'Oswald', sans-serif;
     color:white;
     text-decoration: none;
     font-weight: bold;
@@ -116,7 +118,6 @@ nav ul li:hover, #selected {
     .titulo {
         font-size: 18px;
         text-align: left;
-        width: 65%;
     }
 
     .icon-menu {
@@ -126,15 +127,76 @@ nav ul li:hover, #selected {
         font-size: 29.5px;
     }
 
-    nav a{
-        font-size: 15px;
-    }
-
     nav ul li {
         padding: 1em;
     }
 
+    nav ul li a {
+        font-size: 15px;
+    }
+
     .mostrar {
         height: 280px;
+    }
+}
+
+@media(min-width: 1280px) {
+    .header {
+        position: relative;
+        margin-bottom: 1em;
+    }
+
+    #escudo{
+        width: 180px;
+        height: 190px;
+    }
+
+    .titulo{
+        font-size: 18px;
+        width: 60%; 
+    }
+
+    nav {
+        position: absolute;
+        top: 70%;
+        left: -2%;
+        height: auto;
+        transition: none;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;   
+        justify-content: center;
+        list-style: none;
+    }
+
+    nav ul li {
+        background: none;
+        padding: 0 0 1.05em 0;
+    }
+
+    nav ul li:hover {
+        background: none;
+    }
+
+    nav ul li a{  
+        font-size: 16px;
+        padding: 1em 1.5em;
+    }
+
+    nav ul li a:hover, #selected{
+        background: none;
+        color: #de0963;
+        border-bottom: 1px solid #5d64a8;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
+    .sociales{
+        margin-top: 5em;
+        display: block;
     }
 }

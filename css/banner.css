@@ -14,11 +14,12 @@
 }
 
 .texto a {
+    font-family: 'oswald', sans-serif;
     text-decoration: none;
     color:white;
-    padding: 0.5em;
+    padding: 0.5em 1em;
     background: #5d64a8;
-    font-weight: bolder;   
+    font-weight: 500;   
 }
 
 .texto a:hover {
@@ -40,7 +41,38 @@
         font-size: 18px;
     }
 
-    .texto p {
-        margin-bottom: 15em;
+    .texto a {
+        position: absolute;
+        bottom: 8%;
+        left: 40%;
     }
+
+}
+
+@media(min-width: 1280px) {
+    .banner {
+        position: static;
+        background: white;
+        padding: 0.5em;
+    }
+
+    .image {
+        position: relative;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .texto {
+        font-size: 23px;
+    }
+
+    .texto p {
+        font-size: 18px;
+    }
+    .texto a{
+        font-size: 18px;
+    }
+    
 }
