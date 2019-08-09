@@ -1,6 +1,13 @@
-var btnMenu = document.querySelector("#btnmenu");
-var nav = document.querySelector("#nav");
+$(document).ready(function() {
 
-btnMenu.addEventListener('click', function(){
-    nav.classList.toggle('mostrar');
+    var btnMenu = $('#btnmenu');
+    var nav = $('#nav');
+
+    nav.hide();
+
+    btnMenu.click(function() {
+        nav.slideToggle('normal');
+    })
+
 })
+
